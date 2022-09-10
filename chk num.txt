@@ -1,0 +1,22 @@
+// write a C program to cheak whether a number is negative , possitive or zero. 
+
+#include<stdio.h>
+int main()
+{
+	int x;                  
+	printf("Enter number");
+	scanf("%d",&x);
+	if(x>0)
+	{
+    printf("number is possitive",x);
+}
+   if(x==0)
+ {
+ printf("number is zero",x);
+}
+	if(x<0)
+	{
+		printf("number is negative",x); 
+	}
+	
+} 
